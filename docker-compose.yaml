@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+    mysql:
+        container_name: java_mysql
+        image: mysql:8.0
+        ports:
+            - '3306:3306'
+        env_file:
+            - .env
