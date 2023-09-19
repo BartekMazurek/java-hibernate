@@ -18,6 +18,12 @@
         <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
 
         <mapping class="org.example.model.Product" />
+        <mapping class="org.example.model.Post" />
+        <mapping class="org.example.model.Comment" />
+        <mapping class="org.example.model.Destination" />
+        <mapping class="org.example.model.Shipment" />
+        <mapping class="org.example.model.Article" />
+        <mapping class="org.example.model.Tag" />
 
     </session-factory>
 </hibernate-configuration>
